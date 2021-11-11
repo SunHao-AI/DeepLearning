@@ -9,7 +9,7 @@ mnist_dataset = mnist_data_loader.read_data_sets("../DataSet/MNIST_data/", one_h
 
 # training dataset
 train_set = mnist_dataset.train
-# test dataset
+# 1-learning dataset
 test_set = mnist_dataset.test
 
 train_size = train_set.num_examples
